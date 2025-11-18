@@ -54,19 +54,3 @@ gcc -Wall -Wextra -std=c11 *.c -o demo && ./demo
 
 Open `data/sample-telemetry.jsonl` to inspect representative console output. This is
 useful when validating your hardware wiring or cloud logging pipeline.
-
-## Additional Notes (Legacy Content)
-
-# Build 11 Arduino Practical Projects today!
-
-- Course: Build 11 Arduino Practical Projects today!
-- Author: Ashraf S A AlMadhoun
-- Link: https://www.udemy.com/course/arduino-build-arduino-practical-projects/?couponCode=JULYMAXDICOUNT
-
-## Overview
-
-Develop a series of Arduino projects covering sensors, actuators, and communication.
-
-## Purchase With Discount
-
-Enroll using the link above to get a discounted price and build hands-on projects.
