@@ -1,19 +1,16 @@
-# Projects — Overview Diagram
+# Build 11 Arduino Practical Projects Today — Circuit Notes
 
-- Course: Build 11 Arduino Practical Projects today!
-- Author: Ashraf S A AlMadhoun
-- Link: https://www.udemy.com/course/arduino-build-arduino-practical-projects/?couponCode=JULYMAXDICOUNT
+| Signal | Suggested Pin | Notes |
+| --- | --- | --- |
+| Sensor Input | A0 / GPIO | Adjust according to the Arduino board you own. |
+| Actuator Output | D9 / PWM Pin | Use a transistor/driver for high-current loads. |
+| Status LED | D13 or onboard LED | Mirrors the runtime state for quick debugging. |
 
-## Contents
+## Wiring Checklist
 
-- LED control, sensor reads, motor drivers, communication links.
+1. Power rails first (5V / 3.3V and GND).
+2. Route sensor outputs to the analog/digital pin noted above.
+3. Add current-limiting resistors where appropriate.
+4. Double-check common grounds between modules and the development board.
 
-## Diagram (ASCII)
-
-```
-Projects -> Sensors/Actuators/Comms
-```
-
-## Purchase With Discount
-
-Get a discounted price and learn by building — use the link above.
+Refer to the course lecture for the exact schematic; reuse these notes as a quick reference.
